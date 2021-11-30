@@ -13,7 +13,7 @@
                 <ion-label>Onde estou?</ion-label>
                 <h3>{{ latitude }}</h3>
                 <h3>{{ longitude }}</h3>
-                <button @click="buscaCidade()">Adicionar Cidade Atual</button>
+                <ion-button @click="buscaCidade()">Adicionar Cidade Atual</ion-button>
                 <h2>{{ cidade }}</h2>
        </ion-col>
        </ion-row>
@@ -26,7 +26,7 @@
 
         <ion-row>
          <ion-col>
-           <button @click="addCidade">Adicionar cidade<br> com latitude e longitude</button>
+           <ion-button @click="addCidade">Adicionar cidade<br> com latitude e longitude</ion-button>
          </ion-col>
        </ion-row>
 
@@ -71,7 +71,8 @@ export default defineComponent({
     IonGrid, 
     IonRow, 
     IonLabel,
-    IonInput
+    IonInput,
+    IonButton,
   },
   data() {
     return { 
