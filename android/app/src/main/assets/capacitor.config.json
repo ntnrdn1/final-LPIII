@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "final-LPIII",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
